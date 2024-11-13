@@ -80,17 +80,6 @@ The main menu displays:
 - **Limited Punctuation Handling**: Only specific punctuation marks are removed.
 - **No Spell Correction**: Currently lacks typo or spelling variation handling.
 
-## Setup and Installation
-1. **Clone this repository**:
-    ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
-    ```
-2. **Prepare Document Files**:
-    - Place text files to be indexed in a subfolder (e.g., `Browsing`).
-3. **Stop Words, Prefixes, and Suffixes**:
-    - Create files named `stop_words.txt`, `prefixes.txt`, and `suffixes.txt` with each entry on a new line.
-
 ## Usage
 1. **Run the main script**:
     ```bash
@@ -101,10 +90,3 @@ The main menu displays:
     - **Search by Document Name**: Allows file retrieval by name.
     - **Search by Document Content**: Enter keywords to search indexed content.
     - **Exit**: Exits the program.
-
-## License
-This project is licensed under the MIT License.
-
----
-
-> **Note**: This project is designed to demonstrate basic information retrieval techniques. Contributions and improvements are welcome!
